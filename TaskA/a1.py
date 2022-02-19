@@ -1,11 +1,7 @@
-from re import U
 from tr import tr
-
 
 with open('ciphertext.txt') as file:
     data = file.read()
-
-
 
 alpha = { 
     'a': 0,
