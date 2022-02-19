@@ -1,0 +1,14 @@
+
+# encode p1.bmp
+openssl enc -aes-128-cfb -e -in p1.bmp -out p2.bmp -K e2b3e1b533c253e12e4a433e5e3e2e12 -iv e1020406b4a311b1b3b5a1d3d4e405c4
+
+# grab header of original bmp
+head -c 54 p1.bmp > header
+
+# grab body of encoded bmp
+tail -c +54 p2.bmp > body
+
+# combine to create new (encoded) bmp
+cat header body > new.bmp
+
+
