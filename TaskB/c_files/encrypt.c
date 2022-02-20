@@ -21,8 +21,8 @@ int main () {
 
     // Initialize a, b, n
     BN_hex2bn(&m, "4c61756e63682061206d697373696c652e");
-    BN_dec2bn(&e, "65537");
-    BN_hex2bn(&n, "AE1CD4DC432798D933779FBD46C6E1247F0CF1233595113AA51B450F18116115");
+    BN_hex2bn(&e, "010001");
+    BN_hex2bn(&n, "289054BA8BD20D560276779CF8BF7E5A87A6D68F32A21395DA1853779D35C5EC");
 
     // res = a*b
     //BN_mul(res, m, e, ctx);
