@@ -11,5 +11,5 @@ def hexToAscii(s):
         asciiStr = asciiStr + temp 
     return asciiStr
     
-
+print(hexToAscii('50617373776F72642069732064656573'))
 
