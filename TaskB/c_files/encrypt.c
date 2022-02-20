@@ -20,9 +20,9 @@ int main () {
     BIGNUM *res = BN_new();
 
     // Initialize a, b, n
-    BN_hex2bn(&m, "49206f776520796f75202433303030");
+    BN_hex2bn(&m, "4c61756e63682061206d697373696c652e");
     BN_dec2bn(&e, "65537");
-    BN_hex2bn(&n, "DCBFFE3E51F62E09CE7032E2677A78946A849DC4CDDE3A4D0CB81629242FB1A5");
+    BN_hex2bn(&n, "AE1CD4DC432798D933779FBD46C6E1247F0CF1233595113AA51B450F18116115");
 
     // res = a*b
     //BN_mul(res, m, e, ctx);

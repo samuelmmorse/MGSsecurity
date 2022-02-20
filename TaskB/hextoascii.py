@@ -16,7 +16,7 @@ def hexToAscii(s):
 
 
 
-print(stringToHex('I owe you $3000'))
+print(stringToHex('Launch a missile.'))
 
 
 #print(hexToAscii('50617373776F72642069732064656573'))
